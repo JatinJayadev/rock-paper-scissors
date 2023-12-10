@@ -1,0 +1,90 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./assets/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+.score-heading{
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 400px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.main-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.container{
+    border: 2px solid #F9C446;
+    height: 400px;
+    width: 400px;
+}
+
+#player-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.name{
+    color: #ffffff;
+    font-size: 27px;
+    text-align: center;
+}
+
+.rock,.paper,.scissor{
+    height: 70px;
+    width: 70px;
+    cursor: pointer;
+}
+
+.images{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+}
+
+.vs-image{
+    height: 430px
+}
+
+.hand-images img{
+    height: 250px;
+}
+
+.footer h1{
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.footer{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#button{
+    background-color: #F9C446;
+    border: 1px solid #F9C446;
+    padding: 12px;
+    color: black;
+    font-weight: 500;
+    width: 150px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: none;
+    cursor: pointer;
+}
